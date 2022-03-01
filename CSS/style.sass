@@ -1,0 +1,165 @@
+//Fonts
+$Josefin: 'Josefin Sans', sans-serif
+$Kanit: 'Kanit', sans-serif
+
+html
+  scroll-behavior: smooth
+
+img
+  margin-bottom: 1.8rem
+.centered
+  text-align: center
+  h1
+    text-align: left
+
+body
+  font-family: $Kanit
+  p
+    font-size: 1.5rem
+h1,h2,h3,h4,h5,h6
+  font-family: $Josefin
+  font-weight: 700
+h1
+  font-size: 4rem
+  line-height: 4.3rem
+
+//Intro
+@keyframes SlideLeft
+  from
+    transform: translateX(-500%)
+  to
+    transform: translateX(0)
+
+@keyframes SlideRight
+  from
+    transform: translateX(500%)
+  to
+    transform: translateX(0)
+
+@keyframes SlideDown
+  from
+    transform: translateY(500%)
+  to
+    transform: translateY(0)
+
+.intro
+  background: lightcyan
+.Title
+  font-size: 4rem
+  line-height: 4.3rem
+  animation-name: SlideLeft
+  animation-duration: 1s
+.row
+  img
+    width: 85%
+    animation-name: SlideRight
+    animation-duration: 1s
+//Navigation
+.Slider
+  animation-name: SlideDown
+  animation-duration: 1s
+.nav-link
+  font-size: 1.6rem
+  font-weight: 200
+.navbar-brand
+  font-size: 2rem
+.navbar
+  margin-bottom: 7.5rem
+.nav-item
+  margin: 0 18px
+  animation-name: SlideRight
+  animation-duration: 1s
+.navbar-brand
+  font-size: 2.4rem
+  animation-name: SlideLeft
+  animation-duration: 1s
+
+//Download
+.download
+  .row
+    img
+      width: 50%
+    h1
+      margin: 3.5rem 0
+
+//Features
+
+@keyframes SlideUp
+  0%
+    transform: translateY(0)
+  50%
+    transform: translateY(-5%)
+  100%
+    transform: translateY(0)
+
+.hoverUp
+  &:hover
+    animation-name: SlideUp
+    animation-duration: 1s
+
+
+.features
+  background: lightcyan
+  padding: 0.5rem 0
+  .row
+    img
+      width: 70%
+  h1
+    margin: 3rem 0
+
+//Reviews
+.reviews
+  img
+    margin: 1.5rem 0
+  h1
+    margin: 3.5rem 0
+
+//Newsletter
+.newsletter
+  padding: 0.5rem 0
+  background: lightcyan
+  margin-top: 2.5rem
+  h1
+    margin: 3rem 0
+  input
+    background: transparent
+    border: none
+    border-bottom: black 1px solid
+    margin-bottom: 1.7rem
+    width: 50%
+    transition: width 1.5s ease-in-out
+    &:hover
+      width: 100%
+      transition: width 0.5s ease-out
+//Contact
+.contact
+  margin-top: 1.5rem
+  h1
+    margin: 3.5rem 0
+  input, textarea
+    background: transparent
+    border: none
+    border-bottom: black 1px solid
+    margin-bottom: 1.7rem
+    width: 50%
+    transition: width 1.5s ease-in-out
+    &:hover
+      width: 100%
+      transition: width 0.5s ease-out
+
+//Footer
+footer
+  margin-top: 1.8rem
+  background: lightcyan
+  font-weight: 200
+  p
+    margin: 0
+    font-size: 1rem
+  .row
+    img
+      width: 4rem
+      margin-top: 1.5rem
+      transition: opacity 1.5s ease-in-out
+      &:hover
+        opacity: .5
+        transition: opacity .5s ease-out
