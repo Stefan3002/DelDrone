@@ -216,10 +216,12 @@ footer .row img:hover, footer .row img:focus {
   padding: 0.5rem 0;
 }
 .team h1 {
+  text-align: left;
   padding-top: 3rem;
 }
 
 .carousel {
+  margin-top: 4.3rem;
   margin-bottom: 1.5rem;
   text-align: center;
 }
@@ -227,7 +229,11 @@ footer .row img:hover, footer .row img:focus {
   color: gray;
 }
 .carousel img {
-  width: 10%;
+  width: 20%;
+}
+
+.rightAligned img {
+  margin-right: -10rem;
 }
 
 /*# sourceMappingURL=style.css.map */
