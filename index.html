@@ -11,6 +11,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous" defer></script>
 <!--    My Style-->
     <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/darkStyle.css">
+<!--    My JS-->
+    <script src="script.js" defer></script>
 <!--    Icons-->
     <script src="https://kit.fontawesome.com/4ef2199138.js" crossorigin="anonymous"></script>
 <!--    Fonts-->
@@ -22,14 +25,14 @@
 <!--Intro-->
 <header class="intro">
     <section class="container">
-
         <nav class="navbar navbar-light navbar-expand-lg">
             <a href="" class="navbar-brand">DelDrone</a>
             <ul class="navbar-nav ms-auto">
-                <li class="nav-item"><a href="#download" class="nav-link">Download</a></li>
                 <li class="nav-item"><a href="#features" class="nav-link">Features</a></li>
                 <li class="nav-item"><a href="#reviews" class="nav-link">Reviews</a></li>
+                <li class="nav-item"><a href="#download" class="btn btn-outline-primary nav-link">Download</a></li>
                 <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+                <li class="nav-item"><span class="nav-link" onclick="SwitchDarkMode()"><i class="fa-xl fa-solid fa-moon"></i></span></li>
             </ul>
         </nav>
 
@@ -43,7 +46,6 @@
             </div>
             <div class="col-lg-6"><img src="Images/drone_delivery_SVG.svg" alt="Drone delivery image"></div>
         </div>
-
     </section>
 </header>
 
@@ -54,12 +56,12 @@
                 <h1>First Download,<br>than hear what we have to say!</h1>
             </div>
             <div class="col-lg-6 hoverUp">
-                <button class="btn btn-lg btn-outline-dark"><i class="fa-brands fa-google-play"></i>GooglePlay</button>
+                <button class="me-4 btn btn-lg btn-outline-dark"><i class="fa-brands fa-google-play"></i>GooglePlay</button>
                 <img src="Images/Delivery_app_SVG.svg" alt="Delivery image">
             </div>
             <div class="col-lg-6 hoverUp">
                 <img src="Images/Online_shopping_SVG.svg" alt="Online Shop image">
-                <button class="btn btn-lg btn-dark"><i class="fa-brands fa-app-store"></i>AppleStore</button>
+                <button class="ms-4 btn btn-lg btn-dark"><i class="fa-brands fa-app-store"></i>AppleStore</button>
             </div>
         </div>
 </section>

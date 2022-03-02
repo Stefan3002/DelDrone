@@ -1,0 +1,15 @@
+.darkStyle {
+  background: #2b2929;
+  color: white;
+}
+.darkStyle #features, .darkStyle header, .darkStyle .newsletter, .darkStyle .team {
+  background: #246ab4;
+}
+.darkStyle p {
+  color: #c9bdbd;
+}
+.darkStyle .contact input, .darkStyle .contact textarea {
+  border-bottom: 1px solid white;
+}
+
+/*# sourceMappingURL=darkStyle.css.map */
