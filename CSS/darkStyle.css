@@ -1,15 +1,28 @@
 .darkStyle {
   background: #2b2929;
   color: white;
+  transition: color 0.5s ease-out, background 0.5s ease-out;
+}
+.darkStyle .fa-sun {
+  color: white;
+  transform: rotate(180deg);
+  transition: transform 0.5s ease-out;
+}
+.darkStyle .nav-link {
+  color: white;
+  transition: color 0.5s ease-out;
 }
 .darkStyle #features, .darkStyle header, .darkStyle .newsletter, .darkStyle .team {
   background: #246ab4;
+  transition: background 0.5s ease-out;
 }
 .darkStyle p {
   color: #c9bdbd;
+  transition: color 0.5s ease-out;
 }
-.darkStyle .contact input, .darkStyle .contact textarea {
+.darkStyle input, .darkStyle textarea {
   border-bottom: 1px solid white;
+  transition: border-bottom 0.5s ease-out;
 }
 
 /*# sourceMappingURL=darkStyle.css.map */

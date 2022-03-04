@@ -1,10 +1,20 @@
 .darkStyle
+  .fa-sun
+    color: white
+    transform: rotate(180deg)
+    transition: transform .5s ease-out
+  .nav-link
+    color: white
+    transition: color .5s ease-out
   background: #2b2929
   color: white
+  transition: color .5s ease-out, background .5s ease-out
   #features, header, .newsletter, .team
     background: #246ab4
+    transition: background .5s ease-out
   p
     color: #c9bdbd
-  .contact
-    input, textarea
-      border-bottom: 1px solid white
+    transition: color .5s ease-out
+  input, textarea
+    border-bottom: 1px solid white
+    transition: border-bottom .5s ease-out

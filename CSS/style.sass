@@ -4,24 +4,35 @@ $Kanit: 'Kanit', sans-serif
 
 html
   scroll-behavior: smooth
-
+.btn
+  font-weight: 300
 img
   margin-bottom: 1.8rem
 .centered
   text-align: center
   h1
     text-align: left
-
+  transition: background .5s ease-out
 body
   font-family: $Kanit
-  p
-    font-size: 1.5rem
-h1,h2,h3,h4,h5,h6
+  transition: color .5s ease-out, background .5s ease-out
+#features, header, .newsletter, .team
+  transition: background .5s ease-out
+p
+  font-size: 1.5rem
+h1,h2,h3,h4,h6
   font-family: $Josefin
   font-weight: 700
+h5
+  font-family: $Josefin
+  font-weight: 200
 h1
   font-size: 4rem
   line-height: 4.3rem
+
+.fa-moon
+  transform: rotate(360deg)
+  transition: transform .5s ease-out
 
 //Intro
 @keyframes SlideLeft
@@ -44,6 +55,7 @@ h1
 
 .intro
   background: lightcyan
+  transition: background .5s ease-out
 .Title
   font-size: 4rem
   line-height: 4.3rem
